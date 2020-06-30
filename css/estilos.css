@@ -237,8 +237,8 @@ figure {
   margin-left: 20px;
 }
 .event { 
-  margin: 10px;
-  width: 480px;
+  margin: 1%;
+  width: 48%;
   flex-shrink: 0;
   border-radius: 10px;
   overflow: hidden;
@@ -333,7 +333,7 @@ figure {
 .container {
   /* border: 1px solid red; */
   max-width: 1000px; 
-  margin: 0 auto;
+  margin: auto;
   display: inherit;
   justify-content: inherit;
   align-items: inherit;
@@ -341,11 +341,17 @@ figure {
   flex-wrap: inherit;
   flex: 1; 
 }
+.container p{
+  display: inline-grid;
+}
+.container img{
+margin: auto;
+}
 /* //Desktop Fisrt */
 @media screen and (max-width:1024px)
 {
-  body{
-    /* border: solid 10px green; */
+  .container{
+    padding: 0 1em;
   }
 }
 
@@ -388,90 +394,56 @@ figure {
     .project-description{
     font-size: .8em;
   }
+  .event{
+    width: auto;
+    flex-shrink: initial;
+  }
 
+  .event img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+  }
+  
 }
 
-@media screen and (max-width:480px)
+
+@media screen and (max-width:515px)
 {
-  .header{
-    display: block;
-    height:auto;
-  } 
-  .header ol {
-    display: block;
-  }
-  .header ol li {
-    height: 50px;
-  }
-
-  .header a{
-    display: flex;
-    justify-content: center;
-  }
-  .project{
-    display: block;
-  }
-  .project-details, .project-imageContainer{
-    width: auto;
-  }
-
   .project-details{
     font-size: 14px;
   }
-
-  .project-title{
-    font-size: 1.5em;
-    margin-bottom: .3em;
-
+  /*1em = 16px*/
+  .event-detail{
+    
+    margin: -2.5em 0.62em 0.62em;
+    padding: 1em;
   }
-  
-  .project-course, .project-date, .project-url{
-    font-size: .8em;
-    margin: 0.4 em;
+
+  .contact{
+    height: auto;
+    /* padding: 25px; */
+    padding: 1.3em 0;
+    text-align: center;
+    display: block;  
   }
-  .project-description{
-    font-size: .8em;
+  /* .form-email h3{
+    margin-top: 0;
+  } */
+  .form-email button{
+    margin: 1em auto;
+  }
+
+  .footer{
+    display: block;
+    text-align: center;
+    padding: 1px;
+    border: 1px solid transparent;
   }
 }
   
 @media screen and (max-width:320px)
 {
-  .header{
-    display: block;
-    height:auto;
-  } 
-  .header ol {
-    display: block;
-  }
-  .header ol li {
-    height: 50px;
-  }
-
-  .header a{
-    display: flex;
-    justify-content: center;
-  }
-  .project{
-    display: block;
-  }
-  .project-details, .project-imageContainer{
-    width: auto;
-  }
-  .project-details{
-    font-size: 12px;
-  }
-
-  .project-title{
-    font-size: 1.5em;
-    margin-bottom: .3em;
-
-  }
-  .project-course, .project-date, .project-url{
-    font-size: .8em;
-    margin: 0.3em;
-  }
-  .project-description{
-    font-size: .8em;
-  }
+ 
 } 
 
