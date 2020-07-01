@@ -350,14 +350,17 @@ margin: auto;
 /* //Desktop Fisrt */
 @media screen and (max-width:1024px)
 {
+  .menu{
+    width: 40%;
+  }
   .container{
     padding: 0 1em;
 
   }
-.container img{
+  .container img{
     margin: 0;
     align-items: center;
-    
+    height: 365%;
   }
 
   .hero{
@@ -375,7 +378,7 @@ margin: auto;
   }
   
   .portfolio{
-    margin-top: 10em;
+    margin-top: 24em;
   }
   h1{
     font-size: 2em;
@@ -383,6 +386,9 @@ margin: auto;
   }
   .img-platzi{
     margin: 0 65px;
+  }
+  .contact{
+    height: 11em;
   }
   .container{
     border: 1px solid transparent;
@@ -409,6 +415,9 @@ margin: auto;
   .header a{
     display: flex;
     justify-content: center;
+  }
+  .menu{
+    width: 100%;
   }
   .project{
     display: block;
@@ -457,6 +466,10 @@ margin: auto;
   .container{
     border: 2px solid transparent;
   }
+
+  .portfolio{
+    margin-top: 24em;
+  }
 }
 @media screen and (max-width:515px)
 {
@@ -466,6 +479,7 @@ margin: auto;
   .container{
     border: 1px solid transparent;
   }
+  
   .project-details{
     font-size: 14px;
   }
@@ -474,6 +488,10 @@ margin: auto;
     
     margin: -2.5em 0.62em 0.62em;
     padding: 1em;
+  }
+
+  .portfolio{
+    margin-top: 24em;
   }
 
   .contact{
@@ -496,19 +514,38 @@ margin: auto;
     padding: 1px;
     border: 1px solid transparent;
   }
+
+  .container img{
+    margin: 0;
+    align-items: center;
+    height: 365%;
+  }
 }
 @media screen and (max-width:320px)
 {
-  h1{
+   h1{
     font-size: 1em;
     margin-top: 1.2em;
+  } 
+  .logo{
+    width: 100%;
+  }
+  .leo_img{
+    width: 80%;
   }
   .container{
     border: 1px solid transparent;
+  } 
+  .container img{
+    margin: 0;
+    align-items: center;
+    height: 512%;
   }
-  .container p{
+  /* .container p{
     display: block;    
-  }
+  } */
+
+  
   
  
  
