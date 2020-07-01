@@ -1,0 +1,48 @@
+.section{
+    height: 200px;
+    background-color: blueviolet;
+    margin: 10px 0;
+    border: 1px solid black;
+    color: white;
+    /* position: relative; */
+}
+
+p{
+    font-size: 3em;
+    background-color: red;
+    display: inline-block;
+    top: 0;
+    /* display: inline-block; */
+    /* position: relative; */
+    top: 0em;
+    
+    
+}
+p span {
+    
+    /* position: fixed; */
+    /* background-color: blue; */
+    /* bottom: 0; */
+
+    
+}
+.mundo{
+    background-color: green;
+    z-index: 6;
+}
+.rd{
+    color: black;
+    background-color: yellow;
+    z-index: 5;
+}
+.section_sticky{
+    height: 200px;
+    background-color: blueviolet;
+    margin: 10px 0;
+    border: 1px solid black;
+    color: white;
+    position: sticky;
+    /* background: rgba(0, 0, 0, 0.5); */
+    top: 0;
+}
+
