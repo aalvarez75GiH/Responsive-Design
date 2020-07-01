@@ -352,6 +352,44 @@ margin: auto;
 {
   .container{
     padding: 0 1em;
+
+  }
+.container img{
+    margin: 0;
+    align-items: center;
+    
+  }
+
+  .hero{
+    height: auto;
+    position: relative;
+  }
+  .hero-image{
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0; 
+    top: 0;
+    bottom: 0;
+    width: 100%;  
+  }
+  
+  .portfolio{
+    margin-top: 10em;
+  }
+  h1{
+    font-size: 2em;
+    z-index: 2;
+  }
+  .img-platzi{
+    margin: 0 65px;
+  }
+  .container{
+    border: 1px solid transparent;
+  }
+  .container p{
+    display: block;
+
   }
 }
 
@@ -391,7 +429,7 @@ margin: auto;
     font-size: .8em;
     margin: 0.4 em;
   }
-    .project-description{
+  .project-description{
     font-size: .8em;
   }
   .event{
@@ -405,11 +443,29 @@ margin: auto;
     object-fit: cover;
   }
   
+  .form-email button{
+    margin: 1em auto;
+  }
+
+  .footer{
+    display: block;
+    text-align: center;
+    padding: 1px;
+    border: 1px solid transparent;
+  }
+
+  .container{
+    border: 2px solid transparent;
+  }
 }
-
-
 @media screen and (max-width:515px)
 {
+  h1{
+    font-size: 1.5em;
+  }
+  .container{
+    border: 1px solid transparent;
+  }
   .project-details{
     font-size: 14px;
   }
@@ -441,9 +497,20 @@ margin: auto;
     border: 1px solid transparent;
   }
 }
-  
 @media screen and (max-width:320px)
 {
+  h1{
+    font-size: 1em;
+    margin-top: 1.2em;
+  }
+  .container{
+    border: 1px solid transparent;
+  }
+  .container p{
+    display: block;    
+  }
+  
+ 
  
 } 
 
