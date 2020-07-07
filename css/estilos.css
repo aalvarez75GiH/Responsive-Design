@@ -97,6 +97,15 @@ h2 {
   margin-bottom: 40px;
 }
 
+h4{
+  color: #026fff;
+  text-transform: uppercase;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
 .hero {
   height: 300px;
   /* background-image: url('../images/hero.jpg'); */
@@ -287,6 +296,7 @@ figure {
   position: relative;
   padding: 20px;
   text-align: center;
+  font-size: 16px;
 }
 .event-description {
   text-align: left;
@@ -311,6 +321,7 @@ figure {
 }
 
 .social {
+  
 }
 
 .social-link {
@@ -323,15 +334,19 @@ figure {
 
 .social-link.twitter {
   background-image: url('../images/twitter.svg');
+  /* width: 50px; */
 }
 .social-link.facebook {
   background-image: url('../images/facebook.svg');
+  /* width: 50px */
 }
 .social-link.github {
   background-image: url('../images/github.svg');
+  /* width: 50px */
 }
 .social-link.instagram {
   background-image: url('../images/instagram.svg');
+  /* width: 50px */
 }
 
 
@@ -400,6 +415,21 @@ margin: auto;
 }
 /* //Desktop Fisrt */
 @media screen and (max-width:1280px){
+  .container{
+    padding: 0 1em;
+    border: 1px solid transparent;
+  }
+
+  .container p{
+    display: block;
+
+  }
+
+  
+  .contact{
+    height: 11em;
+  }
+  
   .html-video{
     width: 100%;
     height: auto;
@@ -428,7 +458,7 @@ margin: auto;
 }
 @media screen and (max-width:1024px)
 {
-    .hero-image{
+  .hero-image{
       height: auto;
     }
   .menu{
@@ -460,6 +490,7 @@ margin: auto;
   
   .portfolio{
     margin-top: 24em;
+    padding:0;
   }
   h1{
     font-size: 2em;
@@ -487,11 +518,18 @@ margin: auto;
 .project-imageContainer img{
   height: auto;
 }
- 
 
 }
 @media screen and (max-width:767px)
 {
+  h2{
+    font-size: 1.3em;
+    margin-top: .9em;
+    margin-bottom: .9em;
+  }
+  .event-list-title {
+    margin-left: 9em;
+  }
   .hero-image{
     height: auto;
   }
@@ -555,7 +593,7 @@ margin: auto;
     margin: 0.4 em;
   }
   .project-description{
-    font-size: .8em;
+    font-size: 1em;
   }
   .event{
     width: auto;
@@ -592,13 +630,6 @@ margin: auto;
   .figure img{
     height: 50px;
   }
-
- 
-
-  .portfolio{
-    margin-top: 24em;
-  }
-
   
 }
 @media screen and (max-width:515px)
@@ -606,16 +637,21 @@ margin: auto;
   h1{
     font-size: 1.5em;
   }
+
+  h2{
+    margin-top: -80px;
+    margin-bottom: 12px;
+  }
+  .event-list-title {
+    font-size: 1.2em;
+    margin-left: 4em;
+  }
   .container{
     border: 1px solid transparent;
   }
   
-  .project-details{
-    font-size: 14px;
-  }
   /*1em = 16px*/
   .event-detail{
-    
     margin: -2.5em 0.62em 0.62em;
     padding: 1em;
   }
@@ -650,6 +686,33 @@ margin: auto;
     align-items: center;
     height: 365%;
   }
+  /* .social-link{
+   width: 46px;
+   background-size: 100%; 
+  } */
+  .social-link{
+    width: 40px;
+    height: 40px;
+    background-size: 48px 40px;
+  }
+
+  .social-link.twitter {
+    background-image: url('../images/twitter.svg');
+    width: 46px;
+  }
+  .social-link.facebook {
+    background-image: url('../images/facebook.svg');
+    width: 46px
+  }
+  .social-link.github {
+    background-image: url('../images/github.svg');
+    width: 46px
+  }
+  .social-link.instagram {
+    background-image: url('../images/instagram.svg');
+    width: 46px
+  }
+  
 }
 @media screen and (max-width:320px)
 {
@@ -657,6 +720,16 @@ margin: auto;
     font-size: 1em;
     margin-top: 1.2em;
   } 
+  h2{
+    font-size: 1em;
+    margin-top: .9em;
+    margin-bottom: .9em;
+  }
+  .event-list-title {
+    font-size: 1em;
+    margin-left: 3em;
+  }
+  
   .logo{
     width: 100%;
   }
@@ -671,9 +744,16 @@ margin: auto;
     align-items: center;
     height: 512%;
   }
-  /* .container p{
-    display: block;    
-  } */
+}
+
+  
+  
+  
+
+
+  
+  
+  
 
   
   

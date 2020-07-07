@@ -75,7 +75,7 @@
       </div> 
     </section>
     <div class="container">
-      <h2 class="event-list-title">Más sobre mi experiencia</h2>
+      <h4 class="event-list-title">Más sobre mi experiencia</h4>
     </div >
     <section id="eventos" class="event-list">
       <div class="container">
@@ -157,6 +157,7 @@
       const iPad = window.matchMedia('screen and (max-width:767px');
       const menu = document.querySelector('.menu');
       const burgerButton = document.querySelector('#burger-menu');
+      validation(iPad);
       iPad.addListener(validation);
 
       function validation(event){
