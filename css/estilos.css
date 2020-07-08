@@ -424,8 +424,6 @@ margin: auto;
     display: block;
 
   }
-
-  
   .contact{
     height: 11em;
   }
@@ -456,8 +454,11 @@ margin: auto;
     background-color: #026fff;
   }
 }
-@media screen and (max-width:1024px)
+@media screen and (max-width:1023px)
 {
+  .leo_img{
+    width:200px
+  }
   .hero-image{
       height: auto;
     }

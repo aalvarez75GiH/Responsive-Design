@@ -167,22 +167,22 @@
           console.log(event.matches);
         }
         else{
+          console.log("Quitando listener de evento click")
           burgerButton.removeEventListener('click', hideShow);
-          console.log("Se quito")
           console.log(event.matches);
         }
       }
 
       function hideShow(){
         if (menu.classList.contains('is-active')){
+          console.log("Quitando menu")
           menu.classList.remove('is-active');
         }else{
+          console.log("Desplegando menu")
           menu.classList.add('is-active');
         }
+        
       }
-
-      
-
-    </script>
+      </script>
   </body>
 </html>
